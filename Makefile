@@ -41,7 +41,7 @@ endif
 
 ######## Makefile common end
 
-VPATH := ${srcdir}/generic
+VPATH := ${srcdir}/kernels
 
 devicename ?= $(if $(filter 1,$(NPU2)),npu2,npu)
 targetname = passthrough_kernel
